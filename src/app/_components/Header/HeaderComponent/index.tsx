@@ -28,7 +28,6 @@ const HeaderComponent = ({ header }: { header: Header }) => {
         </Link>
 
         <HeaderNav header={header} />
-        <MobileNav header={header} />
       </Gutter>
     </nav>
   )
